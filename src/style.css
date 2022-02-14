@@ -36,3 +36,40 @@ p {
   font-size: 1.5rem;
   font-weight: 700;
 }
+
+section {
+  padding: 3.5rem;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.form--input {
+  width: 100%;
+  border: solid 1px #d5d4d8;
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  font-size: 14px;
+}
+
+.form--button {
+  margin: 1.5rem 0;
+  width: 100%;
+  border: solid 1px #d5d4d8;
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  font-size: 14px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  cursor: pointer;
+}
+
+.meme--image {
+  width: 100%;
+  object-fit: cover;
+}
