@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  all: unset;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  padding: 2rem;
+}
+
+.navbar--left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar--logo {
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.navbar--title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
