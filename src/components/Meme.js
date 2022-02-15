@@ -3,7 +3,6 @@ import memeData from "../memeData";
 
 export default function Meme(props) {
   let [meme, setMeme] = useState({
-    id: "1",
     topText: "shut up",
     bottomText: "take my money",
     image: "https://i.imgflip.com/1bij.jpg",
@@ -28,7 +27,13 @@ export default function Meme(props) {
       <button className="form--button" onClick={handleOnClick}>
         Get a new meme image 🖼
       </button>
-      <img src={meme.image} alt="meme" className="meme--image"></img>
+      <div className="meme">
+        <div className="meme--image">
+          <img src={meme.image} alt="meme"></img>
+        </div>
+        <h2 className="top meme--text">{meme.topText}</h2>
+        <h2 className="bottom meme--text">{meme.bottomText}</h2>
+      </div>
     </section>
   );
 }
